@@ -258,4 +258,5 @@ async function refreshUI() {
 // Carga inicial de la página
 document.addEventListener('DOMContentLoaded', () => {
     refreshUI();
+    setInterval(refreshUI, 2000);
 });
